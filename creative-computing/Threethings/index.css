@@ -1,0 +1,200 @@
+body {
+}
+
+	#car {
+		background-color: #001f3f;
+   	 	width: 50px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 80px;
+    	position: absolute;
+    	top: 50px;
+    	left: 80px;
+    	line-height: 30px;
+    	float: left 20px;
+	}
+
+	.top:hover {
+		background-color: orange;
+		transition: background-color 2s;
+	}
+	.top {
+		background-color: #001f3f;
+		width: 250px;
+		position: absolute;
+		top: 50px;
+		left:0px;
+		height: 100px;
+	}
+
+	.window {
+		background-color: pink;
+		width: 50px;
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		height: 30px;
+	}
+
+	.window2 {
+		background-color: pink;
+		width: 50px;
+		position: absolute;
+		top :10px;
+		left: 100px;
+		height: 30px;
+	}
+
+	#wheel {
+		background-color: orange;
+		width: 50px;
+		height:50px;
+		border-radius: 50px;
+		position: relative;
+		right: 25%;
+		top: 150px;
+	}
+
+	#wheel2 {
+		background-color: orange;
+		width: 50px;
+		height: 50px;
+		border-radius: 50px;
+		position: relative;
+		left: 150%;
+		top: 100px;
+	}
+
+
+	#car2 {background-color: red;
+   	 	width: 100px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 80px;
+    	position: absolute;
+    	top: 100px;
+    	left: 400px;
+    	line-height: 30px;
+    	float: left 20px;
+    }
+
+	.window3 {background-color: yellow;
+   	 	width: 20px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 40px;
+    	position: relative;
+    	top: 10px;
+    	left: 0px;
+    	line-height: 30px;
+    	float: left 20px;
+    }
+
+    .window4 {background-color: yellow;
+   	 	width: 20px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 40px;
+    	position: absolute;
+    	top: 10px;
+    	left: 60px;
+    	line-height: 30px;
+    	float: left 20px;
+
+    }
+
+	#bottom {background-color: red;
+   	 	width: 200px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 80px;
+    	position: absolute;
+    	top: 70px;
+    	left: -40px;
+    	line-height: 30px;
+    	float: left 20px;
+	}
+
+	#wheel3 {background-color: black;
+		width: 50px;
+		height:50px;
+		border-radius: 50px;
+		position: absolute;
+		left: -20%;
+		top: 150px;
+	}
+
+	#wheel4 {background-color: black;
+		width: 50px;
+		height:50px;
+		border-radius: 50px;
+		position: absolute;
+		left: 70%;
+		top: 150px;}
+
+	#car3 {background-color: purple;
+   	 	width: 150px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 150px;
+    	border-radius: 140px;
+    	position: absolute;
+    	top: 100px;
+    	left: 300%;
+    	line-height: 30px;
+    	float: left 20px;
+	}
+
+	#car3:hover {
+		transform: rotateZ(180deg);
+	}
+
+	.window5 {background-color: yellow;
+   	 	width: 50px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 50px;
+    	position: absolute;
+    	top: 30px;
+    	left: 30%;
+    	line-height: 30px;
+    	float: left 20px;
+    }
+
+    .window6 {background-color: orange;
+   	 	width: 30px;
+   	 	padding-left: 5%;
+   	 	padding-right: 5%;
+   	 	padding-top: 0%;
+    	height: 30px;
+    	position: absolute;
+    	top: 40px;
+    	left: 30%;
+    	line-height: 30px;
+    	float: left 20px;
+    }
+
+    #wheel5 {background-color: black;
+		width: 50px;
+		height:50px;
+		border-radius: 50px;
+		position: absolute;
+		left: 10%;
+		top: 143px;
+	}
+
+	#wheel6 {background-color: black;
+		width: 50px;
+		height:50px;
+		border-radius: 50px;
+		position: absolute;
+		left: 60%;
+		top: 143px;
+	}
