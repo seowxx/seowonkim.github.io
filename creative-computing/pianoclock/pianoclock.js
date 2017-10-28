@@ -99,5 +99,5 @@ function update() {
 	}
 }
 
-setInterval(update, 1000)
+setInterval(update, 10000)
 
