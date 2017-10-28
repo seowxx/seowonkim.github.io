@@ -68,10 +68,10 @@ function update() {
 	height = parseInt(style.height)
 
 	if (ampm == 'am') {
-		var newMin = height + 1
+		var newMin = height + 0.5
 	}
 	else {
-		var newMin = height - 1
+		var newMin = height - 0.5
 	}
 
 	key.setAttribute('style', 'height:'+newMin+'px')
