@@ -1,0 +1,101 @@
+div { border: 1px solid black; }
+
+#whitec {
+	width: 80px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	border: 1px solid black;
+
+}
+
+#blackcs {
+	width: 70px;
+	height: 150px;
+	background: black;
+	position: absolute;
+	left:3%;
+}
+
+#whited {width: 80px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	left: 6%;
+}
+
+#blackds {
+	width: 70px;
+	height: 150px;
+	background: black;
+	position: absolute;
+	left:10%;
+} 
+
+#whitee {
+	width: 80px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	left: 12%;
+}
+
+#whitef {
+	width: 80px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	left: 18%;
+}
+
+#blackfs {
+	width: 70px;
+	height: 150px;
+	background: black;
+	position: absolute;
+	left:22%;
+}
+
+#whiteg {
+	width: 80px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	left: 24%;
+}
+
+#blackgs {
+	width: 70px;
+	height: 150px;
+	background: black;
+	position: absolute;
+	left:28%;
+}
+
+#whitea {
+	width: 80px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	left: 30%;
+}
+
+#blackas {
+	width: 70px;
+	height: 150px;
+	background: black;
+	position: absolute;
+	left:34%;
+}
+
+#whiteb {
+	width: 80px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	left: 36%;
+}
+body {
+background-color: pink;
+}
+
