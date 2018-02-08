@@ -1,8 +1,8 @@
 body {
 	font-family: sans-serif;
 	background-color: #FF8C00;
-	padding-right: 6%;
-	padding-left: 6%;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 h1 {
@@ -15,8 +15,6 @@ a {
 	color: black;
 	font-size: 20pt;
 	text-decoration: none;
-	border-style: dotted; 
-	border-width: 0.1pt;
 	line-height: 30pt;
 
 }
