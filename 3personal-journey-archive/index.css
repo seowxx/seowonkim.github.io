@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+	background-color: #FF8C00;
+	padding-right: 6%;
+	padding-left: 6%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100pt;
+	color: white;
+}
+
+a {
+	color: black;
+	font-size: 20pt;
+	text-decoration: none;
+	border-style: dotted; 
+	border-width: 0.1pt;
+	line-height: 30pt;
+
+}
+
+p {
+	color: lightgrey;
+	font-size: 10pt;
+	text-align: bottom;
+	padding-bottom: 10%;
+}
