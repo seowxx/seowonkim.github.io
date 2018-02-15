@@ -1,0 +1,42 @@
+	.tempo {
+		position: fixed;
+		display: inline-block;
+		right: 0;
+		top: 2%;
+		font-family: georgia light;
+		font-weight: lighter; 
+		font-size: 25pt;
+		padding-right: 2%;
+	}
+
+	.button {
+		display:block;
+		width:30px;height:30px;
+		border-radius:20px;
+		font-size:12px;
+		color:white;
+		line-height:33px;
+		text-align:center;
+		background:#42f4a7; 
+		text-decoration: none;
+		position: fixed;
+		top: 2%;
+		left: 2%;
+		}
+
+	.poem {
+		font-family: times new roman light;
+		font-size: 60pt;
+	}
+
+	.wonderful {
+		font-family: times new roman light;
+		font-size: 65pt;
+		text-align: center;
+		padding-top: 40%;
+		color: black;
+	}
+
+	a {
+		color: black;
+	}
