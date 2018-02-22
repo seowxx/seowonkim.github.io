@@ -24,7 +24,7 @@ body {
   top: 56%;
   left: 16%;
   width: 70%;
-  background-color: #c8d3e8;
+  background: linear-gradient(#75b9d8, #bbc2c7);
   height: 23%;
 }
 
@@ -41,7 +41,7 @@ body {
   position: absolute;
   width: 10%;
   height: 17%;
-  background-color: #80808052;
+  background-color: #efe2e2;
   border-radius: 0 56% 51% 62%;
   transform: rotate(45deg);
   margin-top: 16%;
@@ -87,5 +87,152 @@ body {
   transform: rotate(350deg);
   margin-top: 19%;
   left: 62%;
+}
+
+.bluebookl {
+  position: absolute;
+  clip-path: polygon(9% -2%, 38% 21%, 38% 100%, 9% 100%);
+  background-color: #25239c;
+  width: 24%;
+  height: 29%;
+  left: 48%;
+  top: 27%;
+}
+
+.bluebookr {
+  position: absolute;
+  clip-path: polygon(8% 21%, 38% -1%, 36% 100%, 8% 100%);
+  background-color: #30227f;
+  width: 24%;
+  height: 29%;
+  left: 55%;
+  top: 27%;
+}
+
+.spine {
+  position: absolute;
+  top: 32.1%;
+  left: 56.2%;
+  width: 1.8%;
+  height: 29%;
+  background-color: #3236a7;
+}
+
+.pedal-1 {
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  background-color: pink;
+  height: 20%;
+  width: 20%;
+  clip-path: polygon(21% 25%, 24% 34%, 45% 45%, 38% 31%);
+}
+
+.pedal-2 {
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  background-color: pink;
+  height: 20%;
+  width: 20%;
+  clip-path: polygon(34% 6%, 40% 35%, 45% 45%, 47% 31%);
+}
+
+.pedal-3 {
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  background-color: pink;
+  height: 20%;
+  width: 20%;
+  clip-path: polygon(55% 3%, 37% 46%, 45% 46%, 51% 29%);
+}
+
+.pedal-4 {
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  background-color: pink;
+  height: 20%;
+  width: 20%;
+  clip-path:polygon(67% 24%, 48% 37%, 43% 46%, 56% 41%)
+}
+
+.pedal-5 {
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  background-color: pink;
+  height: 20%;
+  width: 20%;
+  clip-path: polygon(30% 47%, 46% 45%, 33% 38%, 16% 34%);
+}
+
+.stem {
+  position: absolute;
+  top: 18.1%;
+  left: 38%;
+  width: 1%;
+  height: 29%;
+  background-color: #50a554;
+}
+
+.can {
+  position: absolute;
+  top: 43.6%;
+  left: 18%;
+  width: 17%;
+  height: 17%;
+  background-color: #dae0dd;
+  clip-path: circle(16.8% at 50% 50%);
+}
+
+.canb{
+  position: absolute;
+  top: 47.6%;
+  left: 22%;
+  width: 9%;
+  height: 9%;
+  background-color: #ccd4c7;
+  clip-path: circle(16.8% at 50% 50%);
+}
+
+.legl {
+  position: absolute;
+  top: 79%;
+  left: 16%;
+  width: 1.6%;
+  height: 21%;
+  background-color: #3e3d3d;
+}
+
+.legr {
+  position: absolute;
+  top: 79%;
+  left: 84.4%;
+  width: 1.6%;
+  height: 21%;
+  background-color: #3e3d3d;
+}
+
+.cat {
+  position: absolute;
+  top: 32.1%;
+  left: 50%;
+  width: 15%;
+  height: 23%;
+  background-color: white;
+  clip-path: polygon(32% 20%, 30% 37%, 24% 50%, 27% 62%, 37% 72%, 53% 73%, 64% 64%, 66% 49%, 63% 40%, 62% 21%, 47% 38%);
+}
+
+.catbody {
+  position: absolute;
+  width: 6%;
+  height: 10%;
+  background-color: #efe2e2;
+  border-radius: 0 56% 51% 62%;
+  transform: rotate(45deg);
+  margin-top: 28%;
+  left: 54%;
 }
 /* Your CSS goes here */
