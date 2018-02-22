@@ -1,0 +1,91 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+  position: absolute;
+  top: 56%;
+  left: 16%;
+  width: 70%;
+  background-color: #c8d3e8;
+  height: 23%;
+}
+
+.book-middle{
+  position: absolute;
+  top: 47%;
+  left: 31%;
+  width: 16%;
+  height: 9%;
+  background-color: #e4e4e4;
+}
+
+.vase {
+  position: absolute;
+  width: 10%;
+  height: 17%;
+  background-color: #80808052;
+  border-radius: 0 56% 51% 62%;
+  transform: rotate(45deg);
+  margin-top: 16%;
+  left: 34%;
+}
+
+.book-top {
+  position: absolute;
+  top: 41%;
+  left: 29%;
+  width: 20%;
+  height: 6%;
+  background-color: #ff5200;
+}
+
+.candle {
+  position: absolute;
+  top: 42%;
+  left: 61%;
+  height: 15%;
+  width: 8%;
+  border-radius: 20%;
+  border-bottom-right-radius: 80%;
+  border-bottom-left-radius: 80%;
+  background-color: #e8e8e8;
+}
+
+.book-bottom {
+  position: absolute;
+  top: 54%;
+  left: 30%;
+  width: 21%;
+  height: 2%;
+  background-color: #ff3b00fa;
+}
+
+.banana {
+  position: absolute;
+  width: 4%;
+  height: 17%;
+  background-color: #ffe000;
+  border-radius: 0 96% 29% 82%;
+  transform: rotate(350deg);
+  margin-top: 19%;
+  left: 62%;
+}
+/* Your CSS goes here */
