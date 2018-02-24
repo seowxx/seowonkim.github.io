@@ -8,12 +8,13 @@ h1 {
 	font-family: futura;
 	font-size: 50pt;
 	color: white;
-	padding-left: 5%;
+	padding-left: 10%;
 	border-top: 0%;
+	margin-right: 2%;
 }
 
-a {
-	padding-left: 9%;
+.links {
+	padding-left: 15%;
 	font-family: futura;
 	line-height: 40pt;
 	font-size: 24pt;
@@ -21,7 +22,7 @@ a {
 }
 
 p {
-	padding-left: 9%;
+	padding-left: 15%;
 	font-family: futura;
 	line-height: 30pt;
 	font-size: 10pt;
@@ -30,30 +31,31 @@ p {
 
 .button {
 	display: block;
-    width: 32px;
-    height: 50px;
-    border-radius: 38px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
     font-size: 4px;
-    color: white;
+    color: grey;
     text-align: center;
     background: white;
     text-decoration: none;
-    position: fixed;
+    position: absolute;
    	top: 2%;
-    right: 2%;
+    left: 1.5%;
 }
 
+
 pre {
-	padding-left: 9%;
+	padding-left: 15%;
 	font-family: futura;
 	line-height: 20pt;
 	font-size: 20pt;
 	color: white;
 }
 
-.cfl {
+.click {
 	font-family: futura;
-	font-size: 50pt;
+	line-height: 20pt;
+	font-size: 20pt;
 	color: white;
-	border-top: 0%;
 }
