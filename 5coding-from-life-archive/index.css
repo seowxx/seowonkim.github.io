@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: futura;
+	font-size: 50pt;
+	color: white;
+	padding-left: 5%;
+}
+
+a {
+	padding-left: 8%;
+	font-family: futura;
+	line-height: 40pt;
+	font-size: 24pt;
+	color: white;
+}
+
+p {
+	padding-left: 8%;
+	font-family: futura;
+	line-height: 30pt;
+	font-size: 10pt;
+	color: white;
+}
