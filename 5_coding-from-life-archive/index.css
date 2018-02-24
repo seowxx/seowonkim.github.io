@@ -2,21 +2,14 @@ body {
 	background-color: black;
 }
 
+
+
 h1 {
 	font-family: futura;
 	font-size: 50pt;
 	color: white;
 	padding-left: 5%;
 	border-top: 0%;
-}
-
-.tag {
-	position: absolute;
-	font-family: times new roman;
-	font-size: 10pt;
-	color: white;
-	padding-left: 5%;
-	padding-top: -50%;
 }
 
 a {
@@ -50,4 +43,17 @@ p {
     right: 2%;
 }
 
+pre {
+	padding-left: 9%;
+	font-family: futura;
+	line-height: 20pt;
+	font-size: 20pt;
+	color: white;
+}
+
+.cfl {
+	font-family: futura;
+	font-size: 50pt;
+	color: white;
+	border-top: 0%;
 }
