@@ -1,8 +1,30 @@
 body { 
-	background-color: #f3b581;
+	background-image: url("paper.png");
+	background-color: #cccccc;
+}
+
+
+.seowon {
+	font-family: futura;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	font-size: 10pt;
+}
+
+
+.projects {
+	padding-top: 5%;
+	text-align: center;
+	font-family: georgia;
+	text-decoration: none;
+	font-size: 40pt;
+	line-height: 50pt;
+	letter-spacing: 2pt;
 }
 
 .project {
+	padding-top: 5%;
 	text-align: center;
 	font-family: futura;
 	text-decoration: none;
@@ -10,10 +32,4 @@ body {
 	line-height: 50pt;
 }
 
-p {
-	font-family: futura;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: center;
-	font-size: 50pt;
-}
+

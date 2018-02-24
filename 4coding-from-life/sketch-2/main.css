@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #f7c8c8;
 }
 
 .frame {
@@ -15,7 +15,8 @@ body {
   top: 56%;
   left: 16%;
   width: 70%;
-  background: linear-gradient(#75b9d8, #bbc2c7);
+  background: linear-gradient(#9953A3,#C7D2FF);
+  background: #8fecc2;
   height: 23%;
 }
 
@@ -25,7 +26,7 @@ body {
   left: 31%;
   width: 16%;
   height: 9%;
-  background-color: #e4e4e4;
+  background-color: #f1f3da;
 }
 
 .vase {
@@ -45,7 +46,7 @@ body {
   left: 29%;
   width: 20%;
   height: 6%;
-  background-color: #ff5200;
+  background-color: #ffbd5b;
 }
 
 .candle {
@@ -66,14 +67,14 @@ body {
   left: 30%;
   width: 21%;
   height: 2%;
-  background-color: #ff3b00fa;
+  background-color: #e4817a;
 }
 
 .banana {
   position: absolute;
   width: 4%;
   height: 17%;
-  background-color: #ffe000;
+  background-color: #f7e75d;
   border-radius: 0 96% 29% 82%;
   transform: rotate(350deg);
   margin-top: 19%;
@@ -83,7 +84,7 @@ body {
 .bluebookl {
   position: absolute;
   clip-path: polygon(9% -2%, 38% 21%, 38% 100%, 9% 100%);
-  background-color: #25239c;
+  background-color: #7b99dc;
   width: 24%;
   height: 29%;
   left: 48%;
@@ -93,7 +94,7 @@ body {
 .bluebookr {
   position: absolute;
   clip-path: polygon(8% 21%, 38% -1%, 36% 100%, 8% 100%);
-  background-color: #30227f;
+  background-color: #4d5db5;
   width: 24%;
   height: 29%;
   left: 55%;
@@ -106,7 +107,7 @@ body {
   left: 56.2%;
   width: 1.8%;
   height: 29%;
-  background-color: #3236a7;
+  background-color: #3e408a;
 }
 
 .pedal-1 {
@@ -212,7 +213,7 @@ body {
   left: 50%;
   width: 15%;
   height: 23%;
-  background-color: #efeaea;
+  background-color: #fdfcfc;
   clip-path: polygon(32% 20%, 30% 37%, 24% 50%, 27% 62%, 37% 72%, 53% 73%, 64% 64%, 66% 49%, 63% 40%, 62% 21%, 47% 38%);
 }
 
