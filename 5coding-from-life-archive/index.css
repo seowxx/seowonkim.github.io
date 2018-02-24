@@ -7,10 +7,20 @@ h1 {
 	font-size: 50pt;
 	color: white;
 	padding-left: 5%;
+	border-top: 0%;
+}
+
+.tag {
+	position: absolute;
+	font-family: times new roman;
+	font-size: 10pt;
+	color: white;
+	padding-left: 5%;
+	padding-top: -50%;
 }
 
 a {
-	padding-left: 8%;
+	padding-left: 9%;
 	font-family: futura;
 	line-height: 40pt;
 	font-size: 24pt;
@@ -18,9 +28,26 @@ a {
 }
 
 p {
-	padding-left: 8%;
+	padding-left: 9%;
 	font-family: futura;
 	line-height: 30pt;
 	font-size: 10pt;
 	color: white;
+}
+
+.button {
+	display: block;
+    width: 32px;
+    height: 50px;
+    border-radius: 38px;
+    font-size: 4px;
+    color: white;
+    text-align: center;
+    background: white;
+    text-decoration: none;
+    position: fixed;
+   	top: 2%;
+    right: 2%;
+}
+
 }
