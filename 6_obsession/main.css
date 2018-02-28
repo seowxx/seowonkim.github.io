@@ -49,3 +49,16 @@ h1 {
     top: 39%;
     left: 3%;
 }
+
+.block1 {
+    display: block;
+    width: 20%;
+    height: 47%;
+    color: white;
+    text-align: center;
+    background: white;
+    text-decoration: none;
+    position: absolute;
+    top: 39%;
+    left: 10%;
+}
