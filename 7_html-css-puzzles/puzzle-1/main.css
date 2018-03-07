@@ -1,21 +1,9 @@
-body {
-	padding: 0;
-}
-
-.word {
-	margin-bottom: 0;
-	background-color: grey;
-}
-
-.full-viewport-container,
-.full-viewport-container .flex-container {
-	  min-height: 100vh;
-}
-
-.align-top {
-	align-self: flex-start;
-}
-
-.align-bottom {
-	align-self: flex-end;
+.box {
+	font-family:"Helvetica";
+	font-size:30px;
+	display:inline-block;
+	background:grey;
+	margin-top:10px;
+	padding:20px 20px;
+	background-color:#ECECEC;
 }
