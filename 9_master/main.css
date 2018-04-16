@@ -1,0 +1,20 @@
+body {
+	background-image: url("gold.jpg");
+}
+
+.title {
+	font-family: futura;
+	font-weight: 2vw;
+	font-size: 15vw;
+	text-align: center;
+}
+
+.text {
+	font-family: sans-serif;
+	font-size: 3vw;
+	text-align: center;
+}
+.one {
+	width: 100%;
+
+}
