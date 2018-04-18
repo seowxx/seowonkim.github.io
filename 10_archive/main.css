@@ -1,0 +1,31 @@
+.head {
+	font-family: helvetica;
+	font-size: 5vw;
+	color: #E3BEC1;
+	padding-bottom: 1%;
+}
+
+.subhead {
+	top: 1%;
+	font-family: helvetica;
+	font-size: 3vw;
+	padding-bottom: 20%;
+	padding-top: 5%;
+}
+
+.number {
+	text-align: left;
+	font-family: helvetica;
+	font-size: 4vw;
+	padding-bottom: 3%;
+	color: black;
+	font-weight: 600;
+}
+
+.subsubhead {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 3vw;
+	padding-top: 10%;
+	color: #474141;
+}

@@ -5,6 +5,7 @@ var myWeekend = 'cooking'
 '6' + '6'
 660/10 
 70-4 
+333 * 2
 
 var one = [
 'Emil',
@@ -30,7 +31,8 @@ var four = [
 "Yaren"
 "Yangchen"]
 
-var allStudentsHere = [
-]
+var allStudentsHere =true
 
 var studentsMissing ['no one is absent']
+
+console.log(studentMissing.length);
