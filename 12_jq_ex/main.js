@@ -20,7 +20,9 @@ $(document).on('keypress', function(e) {
   } else if ( key == 'c' ) {
     img = 'http://www.freepngimg.com/download/unicorn/8-2-unicorn-free-png-image.png';
   }  else if ( key == 'd' ) {
-    img = 'https://images.petsmartassets.com/is/image/PetSmart/SV0401_CATEGORY_HERO-Dog-Dog-20160818?$SV0401$';
+    img = 'https://www.alaskanmalamutes.fr/Images_site/Tuile-Looping.png';
+  } else if (key == 'e') {
+  	img = 'https://www.pixelscrapper.com/legacy/sites/default/files/imagecache/resize_300_nocrop/assets/user-1/node-2207/image/marisa-lerin-glitter-scatter-asset-cambodia-embellishment-commercial-use.png'
   }
 
   // etc.
