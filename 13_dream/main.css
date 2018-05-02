@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+}
+
+@font-face {
+	font-family: 'alarm_clock';src: url("font/alarm_clock.ttf");
+}
+
+.title {
+	margin-top: 2%;
+	color: white;
+	text-align: center;
+	font-size: 8vw;
+	font-family: 'alarm_clock', sans-serif;
+}
+

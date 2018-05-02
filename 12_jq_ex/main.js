@@ -33,3 +33,12 @@ $(document).on('keypress', function(e) {
     $('body').append('<h2 style="position: fixed; top: '+ Math.random() * 100 + '%; left: ' + Math.random() * 100 + '%; transform: translate(-50%, -50%); font-size: ' + Math.random() * 200 + 'px;">' + key + '</h2>');
   }
 });
+
+$(document).on('click', function(event) {
+  console.log(event);
+  event.preventDefault();
+
+  var $clickTarget = $(event.target);
+
+  $clickTarget.remove();
+});
