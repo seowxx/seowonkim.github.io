@@ -6,6 +6,15 @@ body {
 	font-family: 'alarm_clock';src: url("font/alarm_clock.ttf");
 }
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
 .title {
 	margin-top: 2%;
 	color: white;
@@ -30,8 +39,8 @@ body {
 
 .button {
 	position: relative;
-	top: 40px;
-	left: 50px;
+	top: 30px;
+	left: 10%;
 	border: 0;
 	background: transparent;
 	box-sizing: border-box;
