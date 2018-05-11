@@ -1,34 +1,185 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> 00:00 </title>
+	<link rel="icon" href="imgs/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css">
+ 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.5/wavesurfer.min.js"></script>
+</head>
+<body>
+	<div class="title"> 00:00 </div>
+<div class="row">
+	<button id="pp-btn" class="btn" onclick="Spectrum.playPause()"></button>
+	<div id="waveform" class="wave"></div>
+</div>
+
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html> -->
+
+
+<!-- main wavesurfer.js lib -->
 <!DOCTYPE html>
 <html>
 <head>
-	<title> SEOWON KIM </title>
-	<link rel="icon" href="assets/imgs/favicon.png" type="image/x-icon" />
-	<link rel="stylesheet" href="index.css">
+	<meta charset="UTF-8">
+	<title> 00:00 </title>
+	<link rel="icon" href="imgs/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.3/wavesurfer.min.js"></script>
 </head>
 <body>
 
-	<p class="seowon" style="color: black; font-family: georgia;"> SW </p>
+	<video autoplay muted loop id="myVideo">
+  		<source src="imgs/rain.mp4" type="video/mp4">
+	</video>
 
-	<div class="project">
-		<a href="1_clickclick/page1.html" style="color: #353332; text-decoration: none;"> TEMPO</a>
-		<br>
-		<a href="3_personal-journey-archive/index.html" style="color: #353332; text-decoration: none;" > PEEP @</a>
-		<br>
-		<a href="4_coding-from-life/index.html" style="color: #353332; text-decoration: none;" > PASTEL </a>
-		<br>
-		<a href="5_coding-from-life-archive/index.html" style="color: #353332; text-decoration: none;"> C.F.L ARCHIVE</a>
-		<br>
-		<a href="6_obsession/index.html" style="color: #353332; text-decoration: none;"> SYNONYM </a>
-		<br>
-		<a href="9_master/index.html" style="color: #353332; text-decoration: none;" > MASTERPIECE </a>
-		<br>
-		<a href="10_archive/index.html" style="color: #353332; text-decoration: none;" > INTRO TO DISTRACTION </a>
-		<br>
-		<a href="13_dream/index.html" style="color: #353332; text-decoration: none;"> 00:00 </a>
-		<br>
+	<div class="title"> 00:00 </div>
 
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-1"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-1">
+		</div>	
 	</div>
-	<img src="paper.png" alt="paper">
 
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-2"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-2">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-3"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-3">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-4"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-4">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-5"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-5">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-6"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-6">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-7"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-7">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-8"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-8">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-9"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-9">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-10"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-10">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-11"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-11">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-12"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-12">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-13"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-13">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-14"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-14">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-15"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-15">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-16"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-16">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-17"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-17">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-18"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-18">
+		</div>	
+	</div>
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-19"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-19">
+		</div>	
+	</div>
+
+
+	<div class="waveform-container">
+		<div class="waveform" id="waveform-20"></div>
+
+		<div class="btn btn-primary button" id="pp-btn-20">
+		</div>	
+	</div>
+
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
